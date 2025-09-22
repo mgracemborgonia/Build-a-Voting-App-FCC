@@ -1,0 +1,21 @@
+{
+    "name": "voting_app",
+    "version": "1.0.0",
+    "description": "Build a Voting App - FCC",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "author": "Me",
+    "license": "MIT",
+    "dependencies": {
+        "bcrypt": "^6.0.0",
+        "body-parser": "^2.2.0",
+        "dotenv": "^17.2.2",
+        "express": "^5.1.0",
+        "express-session": "^1.18.2",
+        "mongodb": "^6.19.0",
+        "mongoose": "^7.8.7",
+        "nodemon": "^3.1.10"
+    }
+}

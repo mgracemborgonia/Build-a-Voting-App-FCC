@@ -1,0 +1,25 @@
+#poll-div{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#options-div{
+    display: flex;
+    flex-direction: column;
+}
+section{
+    background-color: #96ffee;
+}
+@media (min-width: 200px) and (max-width: 600px) {
+    #poll-div{
+        width: 400px;
+    }
+    header, nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
